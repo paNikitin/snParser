@@ -1,6 +1,6 @@
 import time
 from selenium import webdriver
-from selenium.webdriver import ActionChains, Keys
+from selenium.webdriver import ActionChains
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 import numpy as np
@@ -41,7 +41,7 @@ def sendKeys(element, input):
 
 
 def getToMainPage(login, password, key):
-    driver.implicitly_wait(3)
+    driver.implicitly_wait(10)
     driver.get(url=url)
     time.sleep(2)
     driver.save_screenshot("1.png")
@@ -88,8 +88,8 @@ def scrapeElements(page):
 
 
 def singleHumanHandler(human_id):
-    driver.implicitly_wait(4)
     driver.get(url=f'https://vk.com/id{human_id}')
+    driver.implicitly_wait(5)
     time.sleep(2)
     output = ""
     if check_exists_by_xpath('//*[@id="owner_page_name"]'):

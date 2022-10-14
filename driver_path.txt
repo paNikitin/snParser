@@ -1,1 +1,1 @@
-C:\\Users\\nikit\\PycharmProjects\\test\\backend\\chromedriver.exe
+C:\\YOUR\\DRIVER\\PATH\\chromedriver.exe

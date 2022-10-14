@@ -59,14 +59,12 @@ layout = [
     ]
 ]
 window = sg.Window("snParser", layout, element_justification='c', font='Helvetica')
-# глобальные переменные
+# global vars
 filename = ""
 login = ""
 password = ""
 api = ""
-#login = 'nikitin.palik9@gmail.com'
-#password = 'Aboba228'
-#api_key='577183d0989f990556aff3fc409e21f8'
+
 while True:
     event, values = window.read()
     if event == "Exit" or event == sg.WIN_CLOSED:
@@ -117,7 +115,6 @@ while True:
             sg.Popup(args, keep_on_top=True, title='Ошибка')
         else:
             try:
-
                 IDs = go.readIds(filename)
                 count = go.np.count_nonzero(IDs)
                 output_array = []

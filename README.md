@@ -8,8 +8,8 @@ snParser is a web-scraping software to parse info about VK users.
 
 ## Features
 
-- Import a .txt file with user IDs and watch it automatically parse their profile info
-- Program saves a .txt with user info
+- Import a .txt file with user IDs and watch it automatically parse users` profile info
+- Program outputs a .txt with user info
 
 
 This text you see here is *actually- written in Markdown! To get a feel

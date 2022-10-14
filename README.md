@@ -26,7 +26,7 @@ snParser is open source with a [public repository](https://github.com/paNikitin/
 ## Installation
 
 snParser requires [Python](https://www.python.org/) v3+ to run.
-We are installing:
+To get started we need to install some libraries:
 
 numPy to handle some arrays
 ```sh

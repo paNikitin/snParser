@@ -53,6 +53,7 @@ Also, to make selenium work, we need to get Chrome browser and Chrome drivers of
 User needs to put user IDs to ```user_ids.txt``` (one on a single line) and a path to chromedriver to ```driver_path.txt```.
 ## Working with snParser
 ![alt text](https://i.imgur.com/rkWLwCd.png)
+
 After all the data entered, you are welcome to scrape VK. Also there is a progress bar to track the progress of parsing. When the progress bar is full, user can check out screenshots of parser`s work as well as ```output.txt```
 ![alt text](https://i.imgur.com/KXAVzqo.png)
 ## License
